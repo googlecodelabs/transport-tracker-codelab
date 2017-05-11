@@ -1,0 +1,16 @@
+{
+  "name": "transport-tracker-server",
+  "version": "1.0.0",
+  "description": "The backend component of the Transport Tracker",
+  "scripts": {
+    "main": "node main.js"
+  },
+  "author": "Brett Morgan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.5.0",
+    "csv-parse": "^1.2.0",
+    "sqlite3": "^3.1.8"
+  }
+}

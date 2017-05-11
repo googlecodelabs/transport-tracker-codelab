@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Transport Tracker</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <div class="top-bar">
+    <span class="io-bus-tracker">Transport Tracker</span>
+    <span id="display-time" class="display-time">9:00 AM, May 18th</span>
+    <span class="google-maps-apis"></span>
+  </div>
+  <div id="cards" class="cards"></div>
+  <div id="map" class="map"></div>
+  <div id="page-marker" class="page-marker">
+    <svg>
+      <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+        <circle id="page-marker-panel-0" cx="13" cy="13" r="12" stroke="#445A65" stroke-width="2" fill="none" />
+        <circle id="page-marker-panel-1" cx="61" cy="13" r="12" stroke="#445A65" stroke-width="2" fill="none" />
+        <circle id="page-marker-panel-2" cx="109" cy="13" r="12" stroke="#445A65" stroke-width="2" fill="none" />
+      </g>
+    </svg>
+  </div>
+
+  <script defer src="/__/firebase/3.8.0/firebase-app.js"></script>
+  <script defer src="/__/firebase/3.8.0/firebase-database.js"></script>
+  <script defer src="/__/firebase/init.js"></script>
+  <script defer src="js/index.js"></script>
+  <!-- Change out the following API_KEY for your Maps API Key -->
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaNotARealAPIKey&callback=initMap"></script>
+
+</body>
+</html>

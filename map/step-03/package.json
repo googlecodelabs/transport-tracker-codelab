@@ -1,0 +1,17 @@
+{
+  "name": "transport-tracker-map",
+  "version": "1.0.0",
+  "description": "A map showing the real time location of buses.",
+  "scripts": {
+    "prettier": "prettier --write --single-quote --bracket-spacing=false public/js/*.js",
+    "firebase-init": "firebase init",
+    "firebase-login": "firebase login --no-localhost",
+    "firebase-deploy": "firebase deploy"
+  },
+  "author": "Brett Morgan",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "firebase-tools": "^3.6.1",
+    "prettier": "^1.2.2"
+  }
+}

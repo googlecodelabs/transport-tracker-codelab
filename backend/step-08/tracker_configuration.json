@@ -1,0 +1,5 @@
+{
+	"mapsApiKey": "AIzaNotARealAPIKey",
+	"databaseURL": "https://firebase-project.firebaseio.com",
+	"simulation": true
+}

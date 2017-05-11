@@ -1,0 +1,26 @@
+{
+  "name": "transport-tracker-server",
+  "version": "1.0.0",
+  "description": "The backend component of the Transport Tracker",
+  "scripts": {
+    "main": "node main.js",
+    "debug": "node --inspect --debug-brk main.js",
+    "generate_paths": "node generate_paths.js",
+    "prettier": "for file in *.js; do prettier --write --single-quote --bracket-spacing=false $file; done"
+  },
+  "author": "Brett Morgan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "@mapbox/polyline": "^0.2.0",
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.5.0",
+    "csv-parse": "^1.2.0",
+    "firebase-admin": "^4.2.1",
+    "moment": "^2.18.1",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "prettier": "^1.1.0"
+  }
+}

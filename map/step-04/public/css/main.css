@@ -1,0 +1,74 @@
+html,
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.page-marker {
+  position: absolute;
+  width: 144px;
+  height: 24px;
+  left: calc(50vw - 72px);
+  bottom: 36px;
+  transition-duration: 1s;
+}
+
+.page-marker .selected {
+  fill: #445A65;
+}
+
+
+/*
+ * Top bar
+ */
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background-color: #445A65;
+  z-index: 20;
+}
+
+.top-bar .io-bus-tracker {
+  position: absolute;
+  top: 24px;
+  left: 36px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+.top-bar .google-maps-apis {
+  position: absolute;
+  top: 24px;
+  right: 36px;
+  width: 175px;
+  height: 24px;
+  background-image: url(/images/logo_lockup_maps_apis_light.png);
+}
+
+.top-bar .display-time {
+  position: absolute;
+  top: 24px;
+  width: 160px;
+  left: calc(50vw - 80px);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.97);
+}
+
