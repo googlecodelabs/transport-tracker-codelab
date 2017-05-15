@@ -69,7 +69,8 @@ function generate_paths() {
       });
       tripsWithLocations.push({trip: trip, points: tripPoints});
     } else {
-      console.log(' ERROR: ' + response.status);
+      logProgress(' ERROR: ' + response.status);
+      process.stdout.write('\n');
       process.exit(1);
     }
   });
