@@ -69,7 +69,8 @@ function generate_paths() {
       });
       tripsWithLocations.push({trip: trip, points: tripPoints});
     } else {
-      console.log('ERROR');
+      console.log(' ERROR: ' + response.status);
+      process.exit(1);
     }
   });
   fs.writeFileSync('paths.json', JSON.stringify(tripsWithLocations));
