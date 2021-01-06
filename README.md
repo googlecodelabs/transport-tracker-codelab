@@ -1,3 +1,5 @@
+**NOTE:** This codelab is deprecated. See our current codelabs at https://codelabs.developers.google.com/?cat=maps-platform
+
 Google Transport Tracker Codelab
 ================================
 
